@@ -1,28 +1,34 @@
 body {
 	background-repeat: no-repeat;
-	background-image: url(terapi2.jpg);
+	background-image: url(terapi3.jpg);
 }
 
 @media screen and (min-width: 1200px){
 	body{
 		background-repeat: no-repeat;
-		background-image: url(terapi2.jpg);
+		background-image: url(terapi3.jpg);
 		background-size: cover;
 	}
 }
 
+@media screen and (max-width: 821px){
 nav {
+	text-align: center;
 	list-style-type: none;
 	overflow: hidden;
 	border: 1px solid #1d1d1b;
-	background-color: rgba(250,250,250,0.8);
+	background-color: rgba(250,250,250,0.9);
+}
+
+.nav-text-container{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
 }
 
 .logo {
 	width: 150px;
 	height: 80px;
-	margin-top: 10px;
-	margin-left: 20px;
 }
 
 .intro {
@@ -38,55 +44,64 @@ nav {
 	width: 0px;
 }
 
-.nav {
-	display: flex;
-	flex-direction: column;
-}
-
 a {
 	color: #1d1d1b;
-	text-align: center;
 	padding-top: 5px;
 	padding-bottom: 5px;
 	text-decoration: none;
 	font-family: 'Alegreya Sans', sans-serif;
 	font-size: 120%;
 }
+}
 
 @media screen and (min-width: 820px){
+	.text-background{
+		height: 1000px;
+		width: 1400px;
+		margin: auto;
+		border-radius: 300px;
+		background-color: rgba(250, 250, 250, 1);
+	}
+
 	nav {
-	list-style-type: none;
-	overflow: hidden;
-	border: 2px solid #1d1d1b;
-	background-color: rgba(250,250,250,0.8);
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		list-style-type: none;
+		overflow: hidden;
+		border: 2px solid #1d1d1b;
+		background-color: rgba(250,250,250,0.9);
+	}
+
+	.nav-text-container{
+		margin-left: auto;
+		display: flex;
+		align-items: center;
 	}
 
 	.logo {
 		width: 150px;
 		height: 80px;
-		margin-top: 5px;
-		margin-left: 20px;
+		margin-right: auto;
 	}
 
 	.intro {
+		padding-top: 200px;
+		padding-left: 150px;
+		padding-right: 150px;
 		font-size: 150%;
 		color: white;
-		text-align: center;
 	}
 
 	.line {
 		margin-right: 10px;
-		padding-top: 20px;
-		float: right;
 		height: 50px;
 		width: 50px;
 	}
 
 	a {
-		float: right;
 		color: #1d1d1b;
 		text-align: center;
-		padding-top: 24px;
 		text-decoration: none;
 		font-family: 'Alegreya Sans', sans-serif;
 		font-size: 200%;
