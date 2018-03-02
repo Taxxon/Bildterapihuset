@@ -21,7 +21,7 @@ body {
 		list-style-type: none;
 		overflow: hidden;
 		border: 1px solid #1d1d1b;
-		background-color: rgba(250,250,250,0.9);
+		background-color: rgba(250,250,250,0.5);
 	}
 
 	.nav-text-container{
@@ -66,6 +66,24 @@ body {
 		background-color: rgba(250, 250, 250, 1);
 	}
 
+	.column a:link, a:visited { 
+    	color: blue;
+    	text-decoration: underline;
+    	cursor: pointer;
+	}
+
+	a:hover {
+		color: lightblue;
+	}
+
+	.column p{
+		line-height: 1.4em;
+	}
+
+	.column a{
+		font-size: 20px;
+	}
+
 	nav {
 		display: flex;
 		flex-direction: row;
@@ -73,7 +91,7 @@ body {
 		list-style-type: none;
 		overflow: hidden;
 		border: 2px solid #1d1d1b;
-		background-color: rgba(250,250,250,0.9);
+		background-color: rgba(250,250,250,0.5);
 	}
 
 	.nav-text-container{
@@ -89,14 +107,11 @@ body {
 	}
 
 	.intro {
-		padding: 50px 150px;
+		padding: 50px 220px;
+		letter-spacing: .2rem;
+		line-height: 1.2;		
 		font-weight: 800;
 		letter-spacing: .2rem;
-		line-height: 1.2;
-		font-size: 2em;		
-		font-weight: 800;
-		letter-spacing: .2rem;
-		line-height: 1;
 		font-size: 2.5em;
 		color: white;
 	}
