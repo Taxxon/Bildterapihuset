@@ -7,69 +7,39 @@ body {
 
 @media screen and (min-width: 1200px){
 	body{
-		background-repeat: no-repeat;
-		background-image: url(terapi4.jpg);
 		background-size: cover;
-		font-family: 'Alegreya Sans', sans-serif;
-		background-blend-mode: darken;
-	}
-}
-
-@media screen and (max-width: 821px){
-	nav {
-		text-align: center;
-		list-style-type: none;
-		overflow: hidden;
-		border: 1px solid #1d1d1b;
-		background-color: rgba(250,250,250,0.5);
-	}
-
-	.nav-text-container{
-		display: flex;
-		flex-direction: column;
-		text-align: center;
-	}
-
-	.logo {
-		width: 150px;
-		height: 80px;
-	}
-
-	.intro {
-		font-size: 100%;
-		color: white;
-		text-align: center;
-	}
-
-	.line {
-		margin-right: 0px;
-		padding-top: 0px;
-		height: 0px;
-		width: 0px;
-	}
-
-	a {
-		color: #1d1d1b;
-		padding-top: 5px;
-		padding-bottom: 5px;
-		text-decoration: none;
-		font-size: 120%;
 	}
 }
 
 @media screen and (min-width: 820px){
 	
-	.text-background1 {
-		width: 1400px;
-		height: 1000px;
+	a {
+		color: #1d1d1b;
+		text-align: center;
+		text-decoration: none;
+		font-size: 200%;
+	}
+
+
+	.text-background-startsida {
+		width: 86%;
+		height: 100%;
 		margin: auto;
 		border-radius: 50px;
 		background-color: white;
 	}
 
-	.text-background2 {
-		width: 1400px;
-		height: 1500px;
+	.text-background-aktuellt {
+		width: 86%;
+		height: 100%;
+		margin: auto;
+		border-radius: 50px;
+		background-color: white;
+	}
+
+	.text-background-erbjudande {
+		width: 86%;
+		height: 100%;
 		margin: auto;
 		border-radius: 50px;
 		background-color: white;
@@ -91,11 +61,11 @@ body {
 		color: lightblue;
 	}
 
-	.text-div a {
-		font-size: 20px;
+	.column a:hover {
+		color: lightblue;
 	}
 
-	.column a{
+	.text-div a, .column a {
 		font-size: 20px;
 	}
 
@@ -137,13 +107,6 @@ body {
 		width: 50px;
 	}
 
-	a {
-		color: #1d1d1b;
-		text-align: center;
-		text-decoration: none;
-		font-size: 200%;
-	}
-
 	.icons {
 		width: 150px;
 		height: 150px;
@@ -172,6 +135,7 @@ body {
 		text-align: left;
 		padding: 0px 20px;
 		line-height: 1.4em;
+		height: 250px;
 	}
 
 	.column h2 {
@@ -179,8 +143,26 @@ body {
 		padding: 0px 20px;
 	}
 
+	.column-under {
+		width: 100%;
+		text-align: center;
+	}
+
+	.column-under h2 {
+		font-size: 45px;
+	}
+
+	.column-under p{
+		font-size: 25px;
+	}
+
+	#h2-diff{
+		width: 290%;
+	}
+
 	.foot {
 		background-color: black;
+		border-radius: 20px;
 	}
 
 	.foot h2, .foot p {
@@ -191,6 +173,125 @@ body {
 
 	.foot a {
 		font-size: 20px;
+		color: lightblue;
+	}
+
+}
+
+@media screen and (max-width: 821px){
+	nav {
+		text-align: center;
+		list-style-type: none;
+		overflow: hidden;
+		border: 1px solid #1d1d1b;
+		background-color: rgba(250,250,250,0.5);
+	}
+
+	.nav-text-container{
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+	}
+
+	.text-background-startsida {
+		width: 90%;
+		height: 100%;
+		margin: auto;
+		border-radius: 50px;
+		background-color: white;
+	}
+
+	.text-background-aktuellt {
+		width: 86%;
+		height: 100%;
+		margin: auto;
+		border-radius: 50px;
+		background-color: white;
+	}
+
+	.text-background-erbjudande {
+		width: 86%;
+		height: 100%;
+		margin: auto;
+		border-radius: 50px;
+		background-color: white;
+	}
+
+	.column a:link,.column a:visited { 
+    	color: blue;
+    	text-decoration: underline;
+    	cursor: pointer;
+	}
+
+	.column a{
+		font-size: 20px;
+	}
+
+	.logo {
+		width: 150px;
+		height: 80px;
+	}
+
+	.intro {
+		font-size: 1.2em;
+		color: white;
+		text-align: center;
+	}
+
+	.line {
+		margin: 0px;
+		padding: 0px;
+		height: 0px;
+		width: 0px;
+	}
+
+	a {
+		color: #1d1d1b;
+		padding-top: 5px;
+		padding-bottom: 5px;
+		text-decoration: none;
+		font-size: 120%;
+	}
+
+	.icons {
+		width: 100px;
+		height: 100px;
+		padding-top: 50px;
+	}
+	
+	.column, .column-under {
+		text-align: center;
+	}
+
+	.column p, .column-under p {
+		font-size: 20px;
+		float: left;
+	}
+
+	.text-div h2 {
+		font-size: 25px;
+		padding-top: 50px;
+		padding-left: 20px;
+	}
+
+	.text-div p {
+		font-size: 17px;
+		padding: 0px 40px;
+	}
+
+	.foot {
+		background-color: black;
+		border-radius: 20px;
+	}
+
+	.foot h2, .foot p {
+		color: white;
+		text-align: center;
+		font-size: 14px;
+	}
+
+	.foot a {
+		font-size: 14px;
 		color: lightblue;
 	}
 }
