@@ -25,7 +25,7 @@ body {
 		width: 86%;
 		height: 100%;
 		margin: auto;
-		border-radius: 50px;
+		border-radius: 20px;
 		background-color: white;
 	}
 
@@ -33,7 +33,7 @@ body {
 		width: 86%;
 		height: 100%;
 		margin: auto;
-		border-radius: 50px;
+		border-radius: 20px;
 		background-color: white;
 	}
 
@@ -41,7 +41,7 @@ body {
 		width: 86%;
 		height: 100%;
 		margin: auto;
-		border-radius: 50px;
+		border-radius: 20px;
 		background-color: white;
 	}
 
@@ -176,6 +176,19 @@ body {
 		color: lightblue;
 	}
 
+	.img-div{
+		display: inline-block;
+		width: 20%;
+		padding: 2%;
+		text-align: center;
+	}
+
+	.img-div h2{
+	}
+
+	.img-div img{
+		width: 100%;
+	}
 }
 
 @media screen and (max-width: 821px){
@@ -197,7 +210,7 @@ body {
 		width: 90%;
 		height: 100%;
 		margin: auto;
-		border-radius: 50px;
+		border-radius: 20px;
 		background-color: white;
 	}
 
@@ -205,7 +218,7 @@ body {
 		width: 86%;
 		height: 100%;
 		margin: auto;
-		border-radius: 50px;
+		border-radius: 20px;
 		background-color: white;
 	}
 
@@ -213,7 +226,7 @@ body {
 		width: 86%;
 		height: 100%;
 		margin: auto;
-		border-radius: 50px;
+		border-radius: 20px;
 		background-color: white;
 	}
 
@@ -294,4 +307,5 @@ body {
 		font-size: 14px;
 		color: lightblue;
 	}
+
 }
